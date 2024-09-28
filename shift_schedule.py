@@ -181,9 +181,9 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--num_doctors", type=int, default=10)
+    parser.add_argument("--num_doctors", type=int, default=30)
     parser.add_argument("--num_days", type=int, default=30)
-    parser.add_argument("--doctors_per_shift", type=int, default=3)
+    parser.add_argument("--doctors_per_shift", type=int, default=8)
     parser.add_argument("--days_off", type=int, default=2)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--output", type=str, default="solution.txt")
